@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS -3</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 300px;
+            border: 3px solid steelblue;
+            border-radius: 8px;
+            /* overflow: scroll; */
+            overflow-y: auto;
+        }
+        /* #box-1{
+            overflow: scroll;
+            overflow-x: hidden;
+        } */
+         .ellipsis{
+            width: 200px;
+            border: 2px solid steelblue;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <p title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores omnis soluta sapiente assumenda nam pariatur quidem nihil ducimus est quaerat!" class="ellipsis">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores omnis soluta sapiente assumenda nam pariatur quidem nihil ducimus est quaerat!</p>
+    </header>
+    <section>
+        <div class="box" id="box-1">
+            <h3>My Text Box 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum sapiente cum magnam obcaecati doloremque quia molestias commodi nobis nostrum tempora. Ipsum aut architecto laborum sint expedita quam officia tenetur perspiciatis corporis, blanditiis ducimus rerum et beatae doloremque hic itaque vel ullam voluptatum at ad repudiandae commodi. Iure commodi, suscipit tempora iste in voluptatibus ea eligendi, voluptatum reprehenderit sapiente eum impedit quis? Natus ut quasi odio necessitatibus sed quae sunt autem praesentium blanditiis nemo tempore error earum ipsam voluptates excepturi nisi omnis hic beatae veritatis nam quisquam, in doloribus! Alias eius nihil quas, sed non et cupiditate distinctio ex eligendi itaque.</p>
+        </div>
+        <div class="box">
+            <h3>My Text Box 2</h3>
+            <p>Culpa assumenda et impedit qui accusamus sapiente minus? Sunt id, necessitatibus commodi, asperiores possimus ratione sed earum obcaecati amet, molestias eius neque sapiente libero sequi! Magni dignissimos, libero quas consequuntur, autem corrupti sequi blanditiis suscipit recusandae placeat, beatae architecto praesentium odio sapiente molestiae maiores? Hic accusamus ut beatae modi, similique ea fugiat explicabo labore obcaecati consequuntur iste vitae possimus tempora. Laudantium temporibus facilis consectetur voluptatum, nisi voluptatibus soluta cumque odit voluptates quae, ipsum magnam velit exercitationem error, eaque rem neque dolores accusamus officia doloribus quisquam. Non vitae, explicabo minima id numquam illum voluptates doloremque voluptas esse autem aspernatur. Dolore, assumenda!</p>
+        </div>
+        <div class="box">
+            <h3>text box 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsum neque hic veniam dolorum rem consectetur nulla similique et aperiam!</p>
+
+        </div>
+    </section>
+</body>
+</html>
